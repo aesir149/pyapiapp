@@ -15,7 +15,7 @@
       "function": {
         "randomapifunc": {
           "deploymentBucketName": "amplify-amplify0afc200c0a6d4-staging-113733-deployment",
-          "s3Key": "amplify-builds/randomapifunc-2f58714f396834696254-build.zip"
+          "s3Key": "amplify-builds/randomapifunc-384b793263356b435667-build.zip"
         }
       }
     }
