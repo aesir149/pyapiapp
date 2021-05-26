@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/randomapi",
+      "lambdaFunction": "randomapifunc",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/randomapi"
+    }
+  ],
+  "resourceName": "pythonapi",
+  "apiName": "pythonapi",
+  "functionArns": [
+    {
+      "lambdaFunction": "randomapifunc"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-amplify0afc200c0a6d4-staging-113733-authRole",
+    "unAuthRoleName": "amplify-amplify0afc200c0a6d4-staging-113733-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "randomapifunc",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}
